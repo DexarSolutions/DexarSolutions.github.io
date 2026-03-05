@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dexar Solutions LLP</title>
+    <meta name="description"
+        content="Get in touch with Dexar Solutions LLP for professional business and information services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Dexar Solutions Logo">
+            </a>
+            <!-- Mobile nav toggle -->
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="contact.html" class="btn btn-outline">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-padding">
+            <div class="container">
+                <h1 style="text-align: center; margin-bottom: 3rem;">Get in Touch</h1>
+
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="How can we help?">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-details">
+                        <h2>Contact Information</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                            Feel free to reach out to us for any inquiries or support. Our team is here to assist you.
+                        </p>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem;">📍 Our Office</h4>
+                            <p>76 A Arjun Nagar, New Delhi, India</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem;">📞 Phone</h4>
+                            <p>+91 7011095140</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem;">✉️ Email</h4>
+                            <p>info@dexarsolutions.com</p>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem;">🕒 Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <!-- <img src="assets/logo.png" alt="Dexar Solutions Logo" class="footer-logo"> -->
+                    <p style="opacity: 0.7; font-size: 0.9rem;">
+                        DEXAR SOLUTIONS LLP provides professional business solutions and information services globally.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><span style="opacity: 0.7;">📍 76 A Arjun Nagar, New Delhi, India</span></li>
+                        <li><span style="opacity: 0.7;">📞 +91 7011095140</span></li>
+                        <li><span style="opacity: 0.7;">✉️ info@dexarsolutions.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DEXAR SOLUTIONS LLP | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
