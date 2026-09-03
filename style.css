@@ -387,3 +387,123 @@ footer::before {
     width: auto;
     margin-bottom: 1rem;
 }
+/* Legal / Policy pages */
+.legal-page {
+    max-width: 860px;
+    margin: 0 auto;
+    background: var(--bg-white);
+    padding: 3rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+}
+
+.legal-page h1 {
+    margin-bottom: 0.5rem;
+}
+
+.legal-subtitle {
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.legal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 2rem;
+    background: var(--bg-light);
+    border-left: 4px solid var(--accent);
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.legal-page h2 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+}
+
+.legal-page h3 {
+    font-size: 1.1rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.legal-page ul {
+    margin: 0 0 1rem 1.25rem;
+    padding-left: 0.75rem;
+}
+
+.legal-page li {
+    margin-bottom: 0.6rem;
+}
+
+.legal-page a {
+    color: var(--accent-hover);
+}
+
+.table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+.legal-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 520px;
+    font-size: 0.95rem;
+}
+
+.legal-table th {
+    background: var(--primary);
+    color: white;
+    text-align: left;
+    padding: 0.85rem 1rem;
+    font-weight: 600;
+}
+
+.legal-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+}
+
+.legal-table tbody tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+.legal-callout {
+    background: var(--bg-light);
+    border-left: 4px solid var(--primary);
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.legal-callout h4 {
+    margin-bottom: 1rem;
+}
+
+.legal-callout p {
+    margin-bottom: 0.5rem;
+}
+
+.legal-callout p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .legal-page {
+        padding: 2rem 1.5rem;
+    }
+
+    .legal-meta {
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+}
